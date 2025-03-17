@@ -1,4 +1,4 @@
-package com.example.litroz.viewmodel
+package com.example.litroz.ui
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.litroz.data.model.Task
 import com.example.litroz.databinding.ActivityEditTaskBinding
+import com.example.litroz.viewmodel.TaskViewModel
 
 class EditTaskActivity : AppCompatActivity() {
 

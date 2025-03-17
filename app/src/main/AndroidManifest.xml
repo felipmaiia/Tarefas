@@ -28,13 +28,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".viewmodel.EditTaskActivity"
+            android:name=".ui.EditTaskActivity"
             android:exported="true"
             android:label="@string/edit_task"
             android:theme="@style/AppTheme">
         </activity>
         <activity
-            android:name=".viewmodel.AddTaskActivity"
+            android:name=".ui.AddTaskActivity"
             android:exported="true"
             android:label="@string/add_task"
             android:theme="@style/AppTheme">

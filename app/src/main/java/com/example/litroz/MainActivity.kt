@@ -10,8 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 
 
 import com.example.litroz.databinding.ActivityMainBinding
-import com.example.litroz.viewmodel.AddTaskActivity
-import com.example.litroz.viewmodel.EditTaskActivity
+import com.example.litroz.ui.adapter.TaskAdapter
+import com.example.litroz.ui.AddTaskActivity
+import com.example.litroz.ui.EditTaskActivity
 import com.example.litroz.viewmodel.TaskViewModel
 
 

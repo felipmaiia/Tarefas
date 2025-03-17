@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado pressionado (clica no botão) -->
+    <item android:drawable="@color/button_pressed" android:state_pressed="true"/>
+    <!-- Estado focado (botão em foco) -->
+    <item android:drawable="@color/button_focused" android:state_focused="true"/>
+    <!-- Estado normal -->
+    <item android:drawable="@color/button_normal"/>
+</selector>

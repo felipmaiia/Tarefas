@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base para a aplicação -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Cor primária (Exemplo: Azul escuro) -->
+        <item name="colorPrimary">#081f3d</item>
+        <item name="colorPrimaryDark">#002244</item>
+        <item name="colorAccent">#fc6404</item>
+
+        <!-- Cor do fundo da tela -->
+        <item name="android:windowBackground">#FFFFFF</item>
+
+        <!-- Texto -->
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#757575</item>
+
+        <!-- Barra de ação -->
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <!-- Estilo para a Action Bar -->
+    <style name="ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">#003366</item> <!-- Cor da Action Bar -->
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- Estilo para título da Action Bar -->
+    <style name="ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Estilo do botão AppCompat -->
+    <style name="Widget.AppCompat.Button.Colored" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_bg</item> <!-- Cor de fundo do botão -->
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

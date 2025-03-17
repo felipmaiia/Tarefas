@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Litroz</string>
+    <string name="edit_task">EDITAR TAREFA</string>
+    <string name="add_task">ADICIONAR TAREFA</string>
+    <string name="task">TAREFAS</string>
+    <string name="save_task_button">SALVAR</string>
+    <string name="add_task_button">ADICIONAR</string>
+    <string name="delete_task_button">DELETAR</string>
+
+</resources>

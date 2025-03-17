@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- EditText para o título da tarefa -->
+    <EditText
+        android:id="@+id/etTitleTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título da tarefa"
+        android:inputType="text" />
+
+    <!-- EditText para a descrição da tarefa (permite várias linhas) -->
+    <EditText
+        android:id="@+id/etDescriptionTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição da tarefa"
+        android:inputType="textMultiLine"
+        android:lines="10" />
+
+    <!-- CheckBox para marcar a tarefa como concluída -->
+    <CheckBox
+        android:id="@+id/cbEditCompletedTask"
+        android:layout_width="wrap_content"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:text="Tarefa concluída" />
+
+    <!-- Botão de salvar centralizado horizontalmente -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:gravity="center">
+
+        <!-- Botão de Salvar com ícone -->
+        <Button
+            android:id="@+id/addTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/white"
+            android:text="@string/add_task_button" />
+
+    </LinearLayout>
+</LinearLayout>
